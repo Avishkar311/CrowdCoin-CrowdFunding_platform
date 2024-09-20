@@ -37,7 +37,7 @@ contract CrowdFunding {
             return numberOfCampaigns -1;
 
         }
-        // *********************************************************************
+        
         function donateToCampaign(uint256 _id)public payable{          //a special function payable
         uint256 amount = msg.value;
 
