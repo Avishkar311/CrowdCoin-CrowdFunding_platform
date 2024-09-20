@@ -12,7 +12,7 @@ import './index.css';
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
-    <ThirdwebProvider desiredChainId={ChainId.Sepolia} clientId="2dSdHIw7zd4ZIVGGrx8UNmEEH0xjIQqsU7_VJfbGMz66TFIXjjKmoww5tKm6KEPjiEep7LbYrqIpLEZjx1pAiQ">
+    <ThirdwebProvider desiredChainId={ChainId.Sepolia} clientId="Your client id">
         <Router>
             <StateContextProvider>
             <App/>
