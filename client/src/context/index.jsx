@@ -7,10 +7,10 @@ import { createThirdwebClient, defineChain } from "thirdweb";
 const StateContext = createContext();
 
 export const StateContextProvider = ({ children }) => {
-    const clientId = "5ce4a4d4d0be8bffa16364046b8451e0"; // Replace with your actual client ID
+    const clientId = "client id"; // Replace with your actual client ID
     // Your contract address
-    const contractAddress ="0xFc55EaDbf010090cf95E28199395964AD91290Cb";
-    const chainId ="11155111"
+    const contractAddress ="address";
+    const chainId ="your network id"
     const client = createThirdwebClient({ clientId });
 
     // Fetch the contract
